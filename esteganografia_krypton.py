@@ -32,7 +32,7 @@ def encode(hexcodigo, digito):
 		return hexcodigo
 	else:
 		return None
-#Função para decodificar
+
 def decode(hexcodigo):
 	if hexcodigo[-1] in ('0', '1'):
 		return hexcodigo[-1]
@@ -69,7 +69,7 @@ def esconder(nome_do_arquivo, mensagem):
 
 						
 				
-
+#ver mensagem que esta na foto
 def ver_mensagem(nome_do_arquivo):
 	img = Image.open(nome_do_arquivo)
 	binario = ''
